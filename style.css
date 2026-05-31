@@ -16,6 +16,14 @@
   font-family: Nue;
 }
 
+*::webkit-scrollbar {
+  background-color: #efeae3;
+}
+
+*::webkit-scrollbar-thumb {
+  color: #fe0c0c;
+}
+
 html,
 body {
   width: 100%;
