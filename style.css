@@ -17,7 +17,7 @@
 }
 
 *::webkit-scrollbar {
-  background-color: #efeae3;
+  background-color: #d4d8e3;
 }
 
 *::webkit-scrollbar-thumb {
@@ -61,9 +61,11 @@ body {
   0% {
     opacity: 0.5;
   }
+
   50% {
     opacity: 0.8;
   }
+
   100% {
     opacity: 0.5;
   }
@@ -78,7 +80,7 @@ body {
 #page1 {
   width: 100%;
   min-height: 100vh;
-  background-color: #efeae3;
+  background-color: #d4d8e3;
   position: relative;
   padding: 0 2vw;
 }
@@ -95,8 +97,8 @@ nav {
 }
 
 nav img {
-  width: 65px;
-  height: 60px;
+  width: 90px;
+  height: 90px;
   margin-bottom: 5px;
 }
 
@@ -183,9 +185,11 @@ nav h3 {
   line-height: 2.5vw;
 }
 
+
 #center h1 {
   font-size: 10vw;
-  line-height: 8vw;
+  line-height: 8.5vw;
+  text-align: right;
 }
 
 #page1 video {
@@ -209,7 +213,7 @@ nav h3 {
   height: 100%;
   position: absolute;
   filter: blur(20px);
-  background: linear-gradient(#fe0c0c, #ff1414);
+  background: linear-gradient(#2830ff, #a265ef);
   border-top-left-radius: 50%;
   border-bottom-left-radius: 50%;
 }
@@ -219,7 +223,7 @@ nav h3 {
   height: 30vw;
   position: absolute;
   filter: blur(25px);
-  background: linear-gradient(#fe0c0c, #ff1414);
+  background: linear-gradient(#2830ff, #a265ef);
   border-radius: 50%;
   animation-name: anime1;
   animation-duration: 3s;
@@ -255,7 +259,7 @@ nav h3 {
 #page2 {
   min-height: 100vh;
   width: 100%;
-  background-color: #efeae3;
+  background-color: #d4d8e3;
   padding: 8vw 0;
   position: relative;
 }
@@ -286,7 +290,7 @@ nav h3 {
 #gola {
   width: 70px;
   height: 70px;
-  background-color: #fe0c0c;
+  background-color: #2830ff;
   border-radius: 50%;
   display: inline-block;
   margin: 1vw 2vw;
@@ -342,7 +346,7 @@ nav h3 {
   top: 61%;
   left: 27%;
   border-radius: 50%;
-  background-color: #ea6b34;
+  background: linear-gradient(#2830ff, #a265ef);
   filter: blur(10px);
 }
 
@@ -351,7 +355,7 @@ nav h3 {
   height: 100%;
   position: absolute;
   border-radius: 50%;
-  background-color: #ea6b34;
+  background: linear-gradient(#a265ef, #2830ff);
   filter: blur(10px);
   animation-name: gooey1;
   animation-duration: 3s;
@@ -365,7 +369,7 @@ nav h3 {
   height: 100%;
   position: absolute;
   border-radius: 50%;
-  background-color: #fe0c0c;
+  background: linear-gradient(#a265ef, #2830ff);
   filter: blur(50px);
   animation-name: gooey2;
   animation-duration: 3s;
@@ -397,7 +401,7 @@ nav h3 {
 #page3 {
   min-height: 100vh;
   width: 100%;
-  background-color: #efeae3;
+  background-color: #d4d8e3;
   padding: 7vw 0;
 }
 
@@ -412,7 +416,7 @@ nav h3 {
 .elem-title .red-dot {
   width: 5px;
   height: 5px;
-  background-color: #fe0c0c;
+  background-color: #2830ff;
   border-radius: 50%;
 }
 
@@ -464,7 +468,7 @@ nav h3 {
   position: absolute;
   top: -100%;
   left: 0;
-  background-color: #fe0c0c;
+  background-color: #2830ff;
   transition: all 0.2s ease;
 }
 
@@ -479,7 +483,7 @@ nav h3 {
 #fixed-image {
   width: 23vw;
   height: 30vw;
-  background-color: #fe0c0c;
+  background-color: #2830ff;
   border-radius: 10px;
   position: fixed;
   z-index: 99;
@@ -493,7 +497,7 @@ nav h3 {
 #page4 {
   min-height: 100vh;
   width: 100%;
-  background-color: #efeae3;
+  background-color: #d4d8e3;
   padding: 2vw;
 }
 
@@ -555,12 +559,12 @@ nav h3 {
 }
 
 #box-tabs h2 a:focus-visible {
-  outline: 2px solid #fe0c0c;
+  outline: 2px solid #2830ff;
   outline-offset: 6px;
 }
 
 #box-tabs h2.active a {
-  color: #fe0c0c;
+  color: #2830ff;
 }
 
 #box-desc {
@@ -571,7 +575,7 @@ nav h3 {
   font-size: 1.05rem;
   line-height: 1.2;
   font-weight: 300;
-  color: #efeae3;
+  color: #d4d8e3;
 }
 
 #box-right {
@@ -700,7 +704,7 @@ nav h3 {
 
 #footer-gooey1 {
   position: absolute;
-  background-color: #fe0c0c;
+  background: linear-gradient(#2830ff, #a265ef);
   filter: blur(50px);
   top: -50%;
   left: -20%;
@@ -716,7 +720,7 @@ nav h3 {
 
 #footer-gooey2 {
   position: absolute;
-  background-color: #fe0c0c;
+  background: linear-gradient(#2830ff, #a265ef);
   filter: blur(50px);
   right: -27%;
   top: -27%;
@@ -743,7 +747,7 @@ nav h3 {
 #full-div1 {
   height: 50%;
   width: 100%;
-  background-color: #efeae3;
+  background-color: #d4d8e3;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   display: flex;
@@ -804,7 +808,7 @@ nav h3 {
 
   nav {
     padding: 8vw 6vw;
-    background-color: #efeae3;
+    background-color: #d4d8e3;
   }
 
   nav img {
@@ -874,7 +878,7 @@ nav h3 {
   #page2 {
     min-height: 80vh;
     width: 100%;
-    background-color: #efeae3;
+    background-color: #d4d8e3;
     padding: 8vw 0;
     position: relative;
   }
@@ -1021,7 +1025,7 @@ nav h3 {
   #page4 {
     min-height: 50vh;
     width: 100%;
-    background-color: #efeae3;
+    background-color: #d4d8e3;
     padding: 1vw 3.5vw;
     margin-top: -40px;
   }

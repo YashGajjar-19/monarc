@@ -55,7 +55,7 @@ function page4Animation() {
             var newImg = tab.getAttribute("data-image");
             var newDesc = tab.getAttribute("data-desc");
             img.src = newImg;
-            img.alt = tab.textContent.trim() + " Ferrari image";
+            img.alt = tab.textContent.trim() + "";
             desc.textContent = newDesc;
         });
     });
