@@ -1,12 +1,12 @@
-# Ferrari Official Web Experience
+# Monarc Official Web Experience
 
-A premium web platform inspired by the heritage and engineering excellence of Ferrari. This project implements modern web design standards, focusing on fluid animations, high-performance scrolling, and an immersive user interface.
+A premium web platform inspired by the heritage and contemporary aesthetics of Monarc. This project implements modern web design standards, focusing on fluid animations, high-performance scrolling, and an immersive user interface.
 
-![Ferrari Logo](<./assets/images/logo/logo%20(black).png>)
+![Monarc Logo](<./assets/images/logo/logo.png>)
 
 ## Overview
 
-This project provides a cinematic exploration of Ferrari's engineering and racing legacy. It covers the technical precision of Scuderia systems and the historical significance of the Ferrari collection, aiming to deliver a high-performance digital experience.
+This project provides a cinematic exploration of Monarc's design and heritage. It covers the technical precision of Monarc systems and the significance of the collection, aiming to deliver a high-performance digital experience.
 
 ## Key Features
 
@@ -16,24 +16,27 @@ The interface utilizes the Locomotive Scroll library to provide a weighted, flui
 
 ### Interactive Archives
 
-A dynamic gallery section featuring archival content such as the SF-24 Evolution, Monaco Night Run, and Aerodynamic Programs. Each element includes hover-triggered image previews.
+A dynamic gallery section featuring archival content such as the Atelier, Black Edition, and Studio Essentials collections. Each element includes hover-triggered image previews.
 
 ### Gooey Visual Effects
 
 Custom CSS filters are used to create organic, fluid background animations that respond to the user's presence on the page.
 
-### Scuderia Systems Carousel
+### Monarc Systems Carousel
 
-An interactive technical slider powered by Swiper.js, detailing specific engineering domains including aerodynamics, engine efficiency, and telemetry.
+An interactive Technical slider powered by Swiper.js, detailing specific design domains including materials, silhouettes, and fabrics.
 
 ### Animated Preloader
-A high-performance loading screen featuring an animated Ferrari logo with custom fade and scale effects, ensuring a premium first impression while assets load.
+
+A high-performance loading screen featuring an animated Monarc logo with custom fade and scale effects, ensuring a premium first impression while assets load.
 
 ### Responsive Navigation
+
 A comprehensive full-screen overlay menu designed for seamless navigation across mobile and desktop devices.
 
 ### Dynamic Tab Integration
-A dedicated section for exploring the pillars of Ferrari engineering—Precision, Performance, and Execution—with dynamic content switching.
+
+A dedicated section for exploring the pillars of Monarc design—Craft, Design, and Identity—with dynamic content switching.
 
 ## Technology Stack
 
@@ -65,7 +68,7 @@ A dedicated section for exploring the pillars of Ferrari engineering—Precision
 1.  **Clone the Repository**
 
     ```bash
-    git clone https://github.com/YashGajjar-19/Ferrari-F1.git
+    git clone https://github.com/YashGajjar-19/Monarc.git
     ```
 
 2.  **Execution**
@@ -73,4 +76,4 @@ A dedicated section for exploring the pillars of Ferrari engineering—Precision
 
 ## Design Philosophy
 
-The design is centered on Ferrari's core identity—minimalism combined with power. The color palette utilizes the iconic Rosso Corsa red, deep blacks, and clean whites to ensure a visual experience that mirrors the precision of the vehicles themselves.
+The design is centered on Monarc's core identity—minimalism combined with elegance. The color palette utilizes sophisticated blues, deep blacks, and clean grays/whites to ensure a visual experience that mirrors the precision of the design itself.

@@ -28,7 +28,7 @@ elems.forEach(function (e) {
     e.addEventListener("mouseenter", function () {
         var image = e.getAttribute("data-image")
         if (fixed) {
-            fixed.style.backgroundImage = `url(${image})`
+            fixed.style.backgroundImage = `url("${image}")`
         }
     })
 })
