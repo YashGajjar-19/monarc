@@ -1,79 +1,125 @@
-# Monarc Official Web Experience
+# Monarc
 
-A premium web platform inspired by the heritage and contemporary aesthetics of Monarc. This project implements modern web design standards, focusing on fluid animations, high-performance scrolling, and an immersive user interface.
+Monarc is a premium fashion and atelier landing page built as a static web
+experience. The site presents a quiet-luxury brand story through cinematic
+video, editorial collection sections, hover previews, tabbed storytelling, and
+a horizontal standards carousel.
 
-![Monarc Logo](<./assets/images/logo/logo.png>)
+![Monarc logo](./assets/images/logo/logo.png)
 
 ## Overview
 
-This project provides a cinematic exploration of Monarc's design and heritage. It covers the technical precision of Monarc systems and the significance of the collection, aiming to deliver a high-performance digital experience.
+This project is a front-end brand website for MONARC. It is designed around a
+minimal editorial aesthetic with large typography, soft motion, image-led
+sections, and smooth page interactions.
 
-## Key Features
+The experience includes:
 
-### Smooth Kinetic Scrolling
+- A full-screen animated preloader.
+- Hero section with brand copy, oversized typography, animated background
+  shapes, and a video feature.
+- Moving text marquee for brand keywords.
+- Featured collection list with hover image previews.
+- Interactive Craft, Design, and Identity tabs.
+- Swiper-powered carousel for the MONARC standard.
+- Full-screen mobile navigation overlay.
+- Responsive styling for desktop and smaller screens.
 
-The interface utilizes the Locomotive Scroll library to provide a weighted, fluid scrolling experience that enhances the premium feel of the site.
+## Tech Stack
 
-### Interactive Archives
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- [Locomotive Scroll](https://github.com/locomotivemtl/locomotive-scroll) via CDN
+- [Swiper](https://swiperjs.com/) via CDN
+- Google Fonts via CDN
 
-A dynamic gallery section featuring archival content such as the Atelier, Black Edition, and Studio Essentials collections. Each element includes hover-triggered image previews.
-
-### Gooey Visual Effects
-
-Custom CSS filters are used to create organic, fluid background animations that respond to the user's presence on the page.
-
-### Monarc Systems Carousel
-
-An interactive Technical slider powered by Swiper.js, detailing specific design domains including materials, silhouettes, and fabrics.
-
-### Animated Preloader
-
-A high-performance loading screen featuring an animated Monarc logo with custom fade and scale effects, ensuring a premium first impression while assets load.
-
-### Responsive Navigation
-
-A comprehensive full-screen overlay menu designed for seamless navigation across mobile and desktop devices.
-
-### Dynamic Tab Integration
-
-A dedicated section for exploring the pillars of Monarc design—Craft, Design, and Identity—with dynamic content switching.
-
-## Technology Stack
-
-### Frontend Core
-
-- HTML5 for semantic structure
-- Vanilla CSS3 for advanced styling and animations
-- JavaScript (ES6+) for interactive logic
-
-### Libraries
-
-- Locomotive Scroll for smooth scroll implementation
-- Swiper.js for touch-enabled slider components
+No build tool or package manager is required.
 
 ## Project Structure
 
 ```text
-├── assets/
-│   ├── images/       # High-resolution stills and UI icons
-│   └── videos/       # Cinematic background loops
-├── index.html        # Main structural document
-├── style.css         # Design system and animation definitions
-├── script.js        # Interaction logic and library initialization
-└── README.md         # Documentation
+.
+|-- assets/
+|   |-- fonts/
+|   |-- images/
+|   |   |-- list images/
+|   |   |-- logo/
+|   |   `-- slider images/
+|   `-- videos/
+|-- index.html
+|-- script.js
+|-- style.css
+`-- README.md
 ```
 
-## Setup and Installation
+## Getting Started
 
-1.  **Clone the Repository**
+Clone the repository:
 
-    ```bash
-    git clone https://github.com/YashGajjar-19/Monarc.git
-    ```
+```bash
+git clone https://github.com/YashGajjar-19/Monarc.git
+cd Monarc
+```
 
-2.  **Execution**
-    Open the `index.html` file in any modern web browser to view the project.
+Open `index.html` in a modern browser.
 
-## Design Philosophy
+Because the project loads Locomotive Scroll, Swiper, and Google Fonts from
+CDNs, an internet connection is recommended when viewing the site locally.
 
-The design is centered on Monarc's core identity—minimalism combined with elegance. The color palette utilizes sophisticated blues, deep blacks, and clean grays/whites to ensure a visual experience that mirrors the precision of the design itself.
+## Running Locally
+
+You can open the file directly:
+
+```text
+index.html
+```
+
+Or serve the folder with any static server:
+
+```bash
+python -m http.server 8000
+```
+
+Then visit:
+
+```text
+http://localhost:8000
+```
+
+## Main Files
+
+- `index.html` contains the page markup and external stylesheet/script links.
+- `style.css` contains the visual system, layout, animations, and responsive
+  rules.
+- `script.js` initializes Locomotive Scroll, Swiper, loader behavior, collection
+  hover previews, tab switching, and the full-screen menu.
+- `assets/` contains brand imagery, carousel imagery, logo files, fonts, and
+  video media.
+
+## JavaScript Features
+
+The site uses small vanilla JavaScript modules for:
+
+- Smooth scrolling initialization when Locomotive Scroll is available.
+- Hover-based fixed image previews for the featured collection list.
+- Craft, Design, and Identity tab state updates.
+- Swiper carousel setup.
+- Mobile menu open and close behavior.
+- Timed loader transition after the page starts.
+
+## Browser Support
+
+The site is intended for current desktop and mobile browsers, including:
+
+- Chrome
+- Edge
+- Firefox
+- Safari
+
+## Notes
+
+- External libraries are loaded from CDN links in `index.html`.
+- Local brand assets are referenced with relative paths from the project root.
+- The project is static and can be deployed to any static hosting provider,
+  such as GitHub Pages, Netlify, Vercel, or Cloudflare Pages.
