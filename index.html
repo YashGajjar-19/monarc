@@ -27,20 +27,22 @@
 
     <div id="fixed-image"></div>
 
-    <div id="main">
+    <main id="main">
       <div id="page1">
-        <nav>
-          <img src="./assets/images/logo/logo.png" alt="Logo" />
+        <header>
+          <nav>
+            <img src="./assets/images/logo/logo.png" alt="MONARC Logo" />
 
-          <div id="nav-part2">
-            <h4><a href="#">Collections</a></h4>
-            <h4><a href="#">Atelier</a></h4>
-            <h4><a href="#">Journal</a></h4>
-            <h4><a href="#">House</a></h4>
-          </div>
+            <div id="nav-part2">
+              <h4><a href="pages/collections.html">Collections</a></h4>
+              <h4><a href="pages/atelier.html">Atelier</a></h4>
+              <h4><a href="pages/journal.html">Journal</a></h4>
+              <h4><a href="pages/house.html">House</a></h4>
+            </div>
 
-          <h3>Menu</h3>
-        </nav>
+            <h3 role="button" aria-expanded="false" tabindex="0">Menu</h3>
+          </nav>
+        </header>
 
         <div id="center">
           <div id="left">
@@ -220,7 +222,7 @@
         </div>
 
         <div class="page3-btn">
-          <button class="custom-btn"><span>Explore Collections →</span></button>
+          <a href="pages/collections.html" class="custom-btn"><span>Explore Collections &rarr;</span></a>
         </div>
       </div>
 
@@ -228,27 +230,27 @@
         <div id="box">
           <div id="box-left">
             <div id="box-tabs">
-              <h2
+              <button
                 class="active"
                 data-image="./assets/images/craft.png"
                 data-desc="Every MONARC piece begins with careful material selection, refined construction, and an uncompromising attention to detail."
               >
-                <a href="#">Craft</a>
-              </h2>
+                Craft
+              </button>
 
-              <h2
+              <button
                 data-image="./assets/images/design.png"
                 data-desc="Modern silhouettes are shaped through thoughtful design, balancing simplicity, comfort, and timeless aesthetics."
               >
-                <a href="#">Design</a>
-              </h2>
+                Design
+              </button>
 
-              <h2
+              <button
                 data-image="./assets/images/identity.png"
                 data-desc="More than clothing, MONARC represents a quiet expression of confidence, purpose, and personal style."
               >
-                <a href="#">Identity</a>
-              </h2>
+                Identity
+              </button>
             </div>
             <div id="box-desc">
               <p>
@@ -364,36 +366,37 @@
 
       <div id="full-scr">
         <div id="full-div1">
-          <div id="full-nav">
+          <nav id="full-nav">
             <h2>
-              <a href="#">Collections</a>
+              <a href="pages/collections.html">Collections</a>
             </h2>
 
             <h2>
-              <a href="#">Atelier</a>
+              <a href="pages/atelier.html">Atelier</a>
             </h2>
 
             <h2>
-              <a href="#">Journal</a>
+              <a href="pages/journal.html">Journal</a>
             </h2>
 
             <h2>
-              <a href="#">House</a>
+              <a href="pages/house.html">House</a>
             </h2>
-          </div>
+          </nav>
         </div>
       </div>
-    </div>
+    </main>
 
-    <div id="footer">
+    <footer id="footer">
       <div id="footer-gooey1"></div>
       <div id="footer-gooey2"></div>
 
       <div id="footer-div">
         <div id="footer-left">
-          <h4>Craft</h4>
-          <h4>Design</h4>
-          <h4>Identity</h4>
+          <h4><a href="pages/collections.html">Collections</a></h4>
+          <h4><a href="pages/atelier.html">Atelier</a></h4>
+          <h4><a href="pages/journal.html">Journal</a></h4>
+          <h4><a href="pages/house.html">House</a></h4>
         </div>
 
         <div id="footer-right">
@@ -410,15 +413,15 @@
       <div id="footer-bottom">
         <div class="footer-bottom-left">
           <h4>&copy; Monarc</h4>
-          <h4>Instagram</h4>
+          <h4><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></h4>
         </div>
 
         <div class="footer-bottom-right">
           <h4>Paris, France</h4>
-          <h4>Contact</h4>
+          <h4><a href="mailto:contact@monarc.com">Contact</a></h4>
         </div>
       </div>
-    </div>
+    </footer>
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
